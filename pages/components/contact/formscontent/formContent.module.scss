@@ -1,0 +1,74 @@
+.formcontent {
+  //   margin-right: 100px;
+  margin-left: 30px;
+  margin-top: 40px;
+  .formcontent__imgDiv {
+    display: flex;
+    align-items: center;
+    // justify-content: space-between;
+    p {
+      font-size: 23px;
+      margin-right: 100px;
+      font-weight: 500;
+    }
+    .imgdiv {
+      margin-left: 10px;
+    }
+  }
+  form {
+    width: 73%;
+
+    .formControl {
+      width: 100%;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+      margin-top: 10px;
+      //   border: 1px solid rgba(0, 0, 0, 0.728);
+      border-radius: 10px;
+      input {
+        width: 100%;
+        padding: 25px;
+        // border: none;
+        border-radius: 10px;
+
+        border: 1px solid rgba(0, 0, 0, 0.254);
+        &::placeholder {
+          font-size: 20px;
+          color: rgba(0, 0, 0, 0.421);
+        }
+      }
+    }
+  }
+  .desc {
+    font-size: 17px;
+    margin: 30px 0;
+    color: #0f264c;
+  }
+  .descDivFlexCard {
+    width: 73%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .divCardorange {
+      background-color: #fff4e7;
+      padding: 20px 0px 20px 40px;
+      border-radius: 10px;
+      width: calc(100% / 3);
+      position: relative;
+      border: 1px solid #ff9916;
+      .divCardimg {
+        position: absolute;
+        // top: 0;
+        bottom: 60px;
+        right: -10px;
+      }
+    }
+    .divCardash {
+      width: calc(100% / 3);
+      margin: 0 30px;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: #f4f8fb;
+      padding: 20px 0px 20px 40px;
+    }
+  }
+}

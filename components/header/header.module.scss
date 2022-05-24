@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 130px;
+  //   font-family: Montserrat;
+
+  .header__logoDiv {
+    width: 50%;
+  }
+  .header__linkDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    ul {
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 20px;
+      width: 60%;
+      .header__linkBlack {
+        color: black;
+        font-weight: bold;
+      }
+      li {
+        color: #282828a1;
+        font-weight: bold;
+      }
+    }
+    button {
+      font-size: 20px;
+      color: white;
+      //   color: blac;
+      background-color: #ff9916;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 10px;
+    }
+  }
+}

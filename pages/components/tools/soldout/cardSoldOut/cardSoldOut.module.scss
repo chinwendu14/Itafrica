@@ -1,0 +1,58 @@
+.cardSoldOut {
+  display: flex;
+  align-items: center;
+  //   justify-content: space-between;
+  margin-top: 30px;
+  .cardSoldOut__divtext {
+    width: 50%;
+  }
+  h1 {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+  p {
+    padding-bottom: 15px;
+    font-size: 20px;
+  }
+  .cardSoldOut__divMap {
+    margin-top: 20px;
+    span {
+      margin-right: 20px;
+    }
+  }
+  .cardSoldOut__divButton {
+    margin-top: 30px;
+
+    button {
+      &:nth-child(1) {
+        font-size: 20px;
+        color: white;
+        //   color: blac;
+        background-color: black;
+        padding: 20px 30px;
+        // width: 20%;
+        border: none;
+        border-radius: 10px;
+        font-weight: 700;
+      }
+      &:nth-child(2) {
+        font-size: 20px;
+        color: white;
+        //   color: blac;
+        // color: #ff9916;
+        color: black;
+        font-weight: 700;
+        background-color: white;
+        padding: 20px 30px;
+        // width: 20%;
+        border: none;
+        font-weight: 500;
+        border-radius: 10px;
+        // margin-left: 10px;
+      }
+    }
+  }
+  .cardSoldOutimg {
+    width: 50%;
+  }
+}

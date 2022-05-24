@@ -1,0 +1,33 @@
+.cardSolution {
+  display: flex;
+  margin: 50px 0;
+  padding: 60px 20px;
+  background-color: white;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  //   height: 330px;
+  //   width: calc(100% / 2);
+  margin: 0 20px;
+  margin-bottom: 20px;
+  .cardSolution__imgDiv {
+    // width: 45%;
+    span {
+      margin-right: 50px;
+    }
+  }
+
+  border-radius: 10px;
+  .cardSolution__textDiv {
+    // width: 45%;
+    margin-left: 20px;
+
+    h1 {
+      font-size: 30px;
+      padding-bottom: 20px;
+    }
+    p {
+      line-height: 40px;
+      color: #282828a1;
+      font-size: 20px;
+    }
+  }
+}

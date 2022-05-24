@@ -1,0 +1,40 @@
+.solution {
+  .solution__flex {
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+  }
+  .solution__h1 {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 40px;
+  }
+  .solution__flexbtn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    button {
+      font-size: 20px;
+      color: white;
+      //   color: blac;
+      background-color: black;
+      padding: 15px 35px;
+      // width: 20%;
+      border: none;
+      border-radius: 10px;
+      font-weight: 700;
+      margin-top: 50px;
+    }
+  }
+  .solution__bgimage {
+    background-image: url("../../../assets/images//Group\ 5938.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+
+    margin: 80px 0;
+    padding: 90px 90px;
+    height: 700px;
+  }
+}

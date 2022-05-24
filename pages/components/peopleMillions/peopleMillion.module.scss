@@ -1,0 +1,30 @@
+.PeopleMillion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 30px 0;
+  .PeopleMillion__flexText {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    h1 {
+      font-size: 40px;
+      text-align: center;
+      padding-bottom: 50px;
+    }
+    p {
+      color: #282828a1;
+      font-size: 16px;
+      padding-bottom: 20px;
+    }
+  }
+  .PeopleMillion__cardDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // background-color: black;
+    width: 100%;
+  }
+}
