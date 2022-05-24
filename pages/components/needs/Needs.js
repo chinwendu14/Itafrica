@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./needs.module.scss";
 import Image from "next/image";
-import { fork } from "../../../assets";
+// import { fork } from "../../../assets";
 
 const Needs = () => {
   return (
@@ -16,10 +16,7 @@ const Needs = () => {
             <div className={styles.needs__TextDiv1}>
               <h1>
                 <span>
-                  <Image
-                    src="/public/images/ic_outline-restaurant.png"
-                    alt="img"
-                  />
+                  <Image src="/images/ic_outline-restaurant.png" alt="img" />
                 </span>
                 For Guests
               </h1>
@@ -31,10 +28,7 @@ const Needs = () => {
             <div className={styles.needs__TextDiv2}>
               <h1>
                 <span>
-                  <Image
-                    src="/public/images/ic_outline-restaurant.png"
-                    alt="img"
-                  />
+                  <Image src="/images/ic_outline-restaurant.png" alt="img" />
                 </span>
                 For Employees
               </h1>
@@ -48,10 +42,7 @@ const Needs = () => {
             <div className={styles.needs__TextDiv1}>
               <h1>
                 <span>
-                  <Image
-                    src="/public/images/ic_outline-restaurant.png"
-                    alt="img"
-                  />
+                  <Image src="/images/ic_outline-restaurant.png" alt="img" />
                 </span>
                 For Operations{" "}
               </h1>
@@ -63,10 +54,7 @@ const Needs = () => {
             <div className={styles.needs__TextDiv2}>
               <h1>
                 <span>
-                  <Image
-                    src="/public/images/ic_outline-restaurant.png"
-                    alt="img"
-                  />
+                  <Image src="/images/ic_outline-restaurant.png" alt="img" />
                 </span>
                 For Business{" "}
               </h1>

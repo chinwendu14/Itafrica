@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./bestFit.module.scss";
-import { fork, vectorone } from "../../../assets";
+// import { fork, vectorone } from "../../../assets";
 import Image from "next/image";
 
 const BestFit = () => {
@@ -21,7 +21,7 @@ const BestFit = () => {
                     <p>
                       <span>
                         <Image
-                          src="/public/images/ic_outline-restaurant.png"
+                          src="/images/ic_outline-restaurant.png"
                           alt="img"
                         />
                       </span>
@@ -45,7 +45,7 @@ const BestFit = () => {
                   <div key={i}>
                     <p>
                       <span>
-                        <Image src="/public/images/Vectorone.png" alt="img" />
+                        <Image src="/images/Vectorone.png" alt="img" />
                       </span>
                       {item.name1}
                     </p>

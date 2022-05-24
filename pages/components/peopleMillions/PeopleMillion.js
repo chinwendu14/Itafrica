@@ -15,26 +15,26 @@ const PeopleMillion = () => {
       </div>
       <div className={styles.PeopleMillion__cardDiv}>
         <CardPeople
-          img="/public/images/Vector.png"
+          img="/images/Vector.png"
           h1text="90+ million Visitors"
           ptext="Countless people visit HighTable "
           ptext2="everyday to find restaurants."
         />
         <CardPeople
-          img="/public/images/code.png"
+          img="/images/code.png"
           h1text="95% Conversion Rate"
           ptext=" High conversion rate because our"
           ptext2="users want what you offer."
         />
         <CardPeople
-          img="/public/images/attach_money.png"
+          img="/images/attach_money.png"
           h1text="5-Star satisfaction"
           ptext="Our customer service is top-notch "
           ptext2="and so you have no worries."
         />
 
         <CardPeople
-          img="/public/images/attach_money.png"
+          img="/images/attach_money.png"
           h1text="600% Efficient"
           ptext="We function in the best possible  "
           ptext2="manner at HighTable."

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./banner.module.scss";
-import { banner } from "../../../assets";
+// import { banner } from "../../../assets";
 import Image from "next/image";
 const Banner = () => {
   return (
@@ -19,7 +19,7 @@ const Banner = () => {
       </div>
       <div className={styles.banner__imageDiv}>
         <Image
-          src="/public/images/Group 5925.png"
+          src="/images/Group 5925.png"
           alt="img"
           //  height={100} width={250}
         />

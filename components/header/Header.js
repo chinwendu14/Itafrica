@@ -7,7 +7,7 @@ const Header = () => {
     <div className={styles.header}>
       <div className={styles.header__logoDiv}>
         <Image
-          src="/public/images/Ellipse 25.png"
+          src="/images/Ellipse 25.png"
           alt="img"
           height={100}
           width={250}
