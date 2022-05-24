@@ -12,24 +12,24 @@ const Solution = () => {
       <div className={styles.solution__flex}>
         <div>
           <CardSolution
-            img={forktwo}
+            img="/public/images/forktwo.png"
             htext="Restaurants & Nightlife"
             ptext="HighTable makes it easy to digitize your customer’s ordering process. Allow your customers place orders from their devices at anytime. This helps you save time and eliminate errors."
           />
           <CardSolution
-            img={vectorball}
+            img="/public/images/Vectorball.png"
             htext="Travels & Tours"
             ptext="We specialize in making it stress-free for users to plan travels and exciting tours. highTable connects you with the best travelers as well as tourists."
           />
         </div>
         <div>
           <CardSolution
-            img={vectorcard}
+            img="/public/images/Vectorcard.png"
             htext="Event Organizers"
             ptext="Take your events to the next level with hightable. we do the planning and marketing for you to have a great turnout at your Event. "
           />
           <CardSolution
-            img={forktwo}
+            img="/public/images/bx_bxs-hotel.png"
             htext="Hotels & Shortlets"
             ptext="hightable makes it pleasant for you to cater to the needs of our users. we connect you to the right individuals in need of hotels, apartments & shortlets. "
           />

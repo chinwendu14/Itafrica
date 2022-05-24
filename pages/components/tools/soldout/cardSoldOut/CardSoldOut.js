@@ -18,7 +18,10 @@ const CardSoldOut = ({ htext, ptext1, ptext2, data2 }) => {
                 <div key={i}>
                   <p>
                     <span>
-                      <Image src={checkone} alt="img" />
+                      <Image
+                        src="/public/images/akar-icons_circle-check-fill.png"
+                        alt="img"
+                      />
                     </span>
                     {item.name1}
                   </p>
@@ -32,7 +35,7 @@ const CardSoldOut = ({ htext, ptext1, ptext2, data2 }) => {
         </div>
       </div>
       <div className={styles.cardSoldOutimg}>
-        <Image src={laptop} alt="img" />
+        <Image src="/public/images/Rectangle.png" alt="img" />
       </div>
     </div>
   );

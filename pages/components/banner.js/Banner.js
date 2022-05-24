@@ -19,7 +19,7 @@ const Banner = () => {
       </div>
       <div className={styles.banner__imageDiv}>
         <Image
-          src={banner}
+          src="/public/images/Group 5925.png"
           alt="img"
           //  height={100} width={250}
         />

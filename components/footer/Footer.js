@@ -39,7 +39,11 @@ const Footer = () => {
           </div>
           <div className={styles.footer__div1imgDiv}>
             <span>
-              <Image src={logowhite} alt="img" />
+              <Image
+                // src={logowhite}
+                src="/public/images/Rectangle 1.png"
+                alt="img"
+              />
             </span>
           </div>
           <p>© 2020 HighTable LLC All rights reserved.</p>
@@ -49,18 +53,26 @@ const Footer = () => {
             <p>
               LGS NGN
               <span>
-                <Image src={arrowdown} alt="img" />
+                <Image
+                  // src={arrowdown} alt="img"
+                  src="/public/images/Polygon 1.png"
+                />
               </span>
             </p>
             <p>
               Nigeria
               <span>
-                <Image src={arrowdown} alt="img" />
+                <Image src="/public/images/Polygon 1.png" alt="img" />
               </span>
             </p>
           </div>
           <div className={styles.footer__divicon}>
-            <Image src={icons} alt="img" width={500} height={60} />
+            <Image
+              src="/public/images/Frame 2250.png"
+              alt="img"
+              width={500}
+              height={60}
+            />
           </div>
         </div>
       </div>

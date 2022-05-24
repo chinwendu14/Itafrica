@@ -14,8 +14,11 @@ const Contact = () => {
           </h1>
         </div>
         <div className={styles.contact__imgDiv}>
-          <Image src={dotcolor} alt="img" />
-          <Image src={contactlap} alt="img" />
+          <Image src="/public/images/Group 5670.png" alt="img" />
+          <Image
+            src="/public/images/607-6070358_enterprise-tablet-pro-samsung-tab-pos-hd-png-removebg-preview 1.png"
+            alt="img"
+          />
         </div>
       </div>
       <div className={styles.contact__bgform}>

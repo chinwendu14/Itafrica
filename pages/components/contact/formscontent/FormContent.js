@@ -13,10 +13,10 @@ const FormContent = () => {
           <br /> give you updates about the latest events.
         </p>
         <div>
-          <Image src={dotwhite} alt="img" />
+          <Image src="/public/images/Frame.png" alt="img" />
         </div>
         <div className={styles.imgdiv}>
-          <Image src={dotwhite} alt="img" />
+          <Image src="/public/images/Frame.png" alt="img" />
         </div>
       </div>
 
@@ -47,7 +47,10 @@ const FormContent = () => {
             in using Hightable
           </p>
           <div className={styles.divCardimg}>
-            <Image src={checkone} alt="img" />
+            <Image
+              src="/public/images/akar-icons_circle-check-fill.png"
+              alt="img"
+            />
           </div>
         </div>
         <div className={styles.divCardash}>

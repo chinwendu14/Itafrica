@@ -20,7 +20,10 @@ const BestFit = () => {
                   <div key={i}>
                     <p>
                       <span>
-                        <Image src={fork} alt="img" />
+                        <Image
+                          src="/public/images/ic_outline-restaurant.png"
+                          alt="img"
+                        />
                       </span>
                       {item.name1}
                     </p>
@@ -42,7 +45,7 @@ const BestFit = () => {
                   <div key={i}>
                     <p>
                       <span>
-                        <Image src={vectorone} alt="img" />
+                        <Image src="/public/images/Vectorone.png" alt="img" />
                       </span>
                       {item.name1}
                     </p>

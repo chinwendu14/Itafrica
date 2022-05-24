@@ -16,7 +16,10 @@ const Needs = () => {
             <div className={styles.needs__TextDiv1}>
               <h1>
                 <span>
-                  <Image src={fork} alt="img" />
+                  <Image
+                    src="/public/images/ic_outline-restaurant.png"
+                    alt="img"
+                  />
                 </span>
                 For Guests
               </h1>
@@ -28,7 +31,10 @@ const Needs = () => {
             <div className={styles.needs__TextDiv2}>
               <h1>
                 <span>
-                  <Image src={fork} alt="img" />
+                  <Image
+                    src="/public/images/ic_outline-restaurant.png"
+                    alt="img"
+                  />
                 </span>
                 For Employees
               </h1>
@@ -42,7 +48,10 @@ const Needs = () => {
             <div className={styles.needs__TextDiv1}>
               <h1>
                 <span>
-                  <Image src={fork} alt="img" />
+                  <Image
+                    src="/public/images/ic_outline-restaurant.png"
+                    alt="img"
+                  />
                 </span>
                 For Operations{" "}
               </h1>
@@ -54,7 +63,10 @@ const Needs = () => {
             <div className={styles.needs__TextDiv2}>
               <h1>
                 <span>
-                  <Image src={fork} alt="img" />
+                  <Image
+                    src="/public/images/ic_outline-restaurant.png"
+                    alt="img"
+                  />
                 </span>
                 For Business{" "}
               </h1>

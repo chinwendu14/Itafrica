@@ -6,7 +6,12 @@ const Header = () => {
   return (
     <div className={styles.header}>
       <div className={styles.header__logoDiv}>
-        <Image src={logo} alt="img" height={100} width={250} />
+        <Image
+          src="/public/images/Ellipse 25.png"
+          alt="img"
+          height={100}
+          width={250}
+        />
       </div>
 
       <div className={styles.header__linkDiv}>
