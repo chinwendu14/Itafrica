@@ -1,17 +1,18 @@
 import React from "react";
 import styles from "./header.module.scss";
 // import { logo } from "../../assets";
-import Image from "next/image";
+// import Image from "next/image";
 const Header = () => {
   return (
     <div className={styles.header}>
       <div className={styles.header__logoDiv}>
-        <Image
+        {/* <Image
           src="/images/Ellipse 25.png"
           alt="img"
           height={100}
           width={250}
-        />
+        /> */}
+        <img src="/images/Ellipse 25.png" alt="img" />
       </div>
 
       <div className={styles.header__linkDiv}>

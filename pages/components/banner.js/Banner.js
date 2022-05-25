@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./banner.module.scss";
 // import { banner } from "../../../assets";
-import Image from "next/image";
+// import Image from "next/image";
 const Banner = () => {
   return (
     <div className={styles.banner}>

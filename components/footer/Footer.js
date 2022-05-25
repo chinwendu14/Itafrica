@@ -68,12 +68,13 @@ const Footer = () => {
             </p>
           </div>
           <div className={styles.footer__divicon}>
-            <Image
+            {/* <Image
               src="/images/Frame 2250.png"
               alt="img"
               width={500}
               height={60}
-            />
+            /> */}
+            <img src="/images/Frame 2250.png" alt="img" />
           </div>
         </div>
       </div>
