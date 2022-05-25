@@ -6,10 +6,8 @@ const SoldOut = () => {
     <div>
       <CardSoldOut
         htext="Let’s get you sold out"
-        ptext1="HighTable makes it easy to connect your restaurant with new
-      customers and definitely grow your business."
-        ptext2="new
-      customers and definitely grow your business."
+        ptext1="HighTable makes it easy to connect your restaurant with "
+        ptext2="new customers and definitely grow your business."
         data2={data1}
       />
 
@@ -22,14 +20,14 @@ const SoldOut = () => {
       /> */}
       <CardSoldOut
         htext="Manage Reservations"
-        ptext1="You can take several actions with HighTable’s manaagement"
-        ptext2="reservation expertise"
+        ptext1="You can take several actions with HighTable’s "
+        ptext2="manaagement reservation expertise"
         data2={data2}
       />
       <CardSoldOut
         htext="Update Menu’s & Create Specials"
-        ptext1="Keep your menus updated as well as creating specials with HighTable."
-        ptext2="HighTable."
+        ptext1="Keep your menus updated as well as creating specials "
+        ptext2="with HighTable."
         data2={data3}
       />
     </div>

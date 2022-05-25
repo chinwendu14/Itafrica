@@ -12,12 +12,14 @@
   }
   p {
     padding-bottom: 15px;
-    font-size: 20px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
   }
   .cardSoldOut__divMap {
     margin-top: 20px;
     span {
-      margin-right: 20px;
+      margin-right: 10px;
     }
   }
   .cardSoldOut__divButton {

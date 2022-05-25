@@ -1,0 +1,106 @@
+.formcontent {
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.formcontent .formcontent__imgDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.formcontent .formcontent__imgDiv p {
+  font-size: 23px;
+  margin-right: 100px;
+  font-weight: 500;
+}
+
+.formcontent .formcontent__imgDiv .imgdiv {
+  margin-left: 10px;
+}
+
+.formcontent form {
+  width: 73%;
+}
+
+.formcontent form .formControl {
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.formcontent form .formControl input {
+  width: 100%;
+  padding: 25px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.254);
+}
+
+.formcontent form .formControl input::-webkit-input-placeholder {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.421);
+}
+
+.formcontent form .formControl input:-ms-input-placeholder {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.421);
+}
+
+.formcontent form .formControl input::-ms-input-placeholder {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.421);
+}
+
+.formcontent form .formControl input::placeholder {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.421);
+}
+
+.formcontent .desc {
+  font-size: 17px;
+  margin: 30px 0;
+  color: #0f264c;
+}
+
+.formcontent .descDivFlexCard {
+  width: 73%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.formcontent .descDivFlexCard .divCardorange {
+  background-color: #fff4e7;
+  padding: 20px 0px 20px 40px;
+  border-radius: 10px;
+  width: calc(100% / 3);
+  position: relative;
+  border: 1px solid #ff9916;
+}
+
+.formcontent .descDivFlexCard .divCardorange .divCardimg {
+  position: absolute;
+  bottom: 60px;
+  right: -10px;
+}
+
+.formcontent .descDivFlexCard .divCardash {
+  width: calc(100% / 3);
+  margin: 0 30px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f4f8fb;
+  padding: 20px 0px 20px 40px;
+}
+/*# sourceMappingURL=formContent.module.css.map */

@@ -1,0 +1,41 @@
+.tools {
+  margin-top: 100px;
+}
+
+.tools .tools__h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.tools .tools__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.tools .tools__textDiv {
+  margin-top: 50px;
+  width: 20%;
+}
+
+.tools .tools__textDiv .tools__textbg {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.tools .tools__textDiv p {
+  padding-bottom: 30px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.tools .tools__cardDiv {
+  width: 70%;
+}
+/*# sourceMappingURL=tools.module.css.map */

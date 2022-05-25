@@ -1,22 +1,29 @@
 .formcontent {
-  //   margin-right: 100px;
+  // margin-right: 100px;
+  width: 80%;
   margin-left: 30px;
   margin-top: 40px;
+  .formcontent__imgDivctextcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    p {
+      font-size: 16px;
+      // margin-right: 100px;
+      font-weight: 500;
+    }
+  }
   .formcontent__imgDiv {
     display: flex;
     align-items: center;
     // justify-content: space-between;
-    p {
-      font-size: 23px;
-      margin-right: 100px;
-      font-weight: 500;
-    }
+
     .imgdiv {
       margin-left: 10px;
     }
   }
   form {
-    width: 73%;
+    width: 100%;
 
     .formControl {
       width: 100%;
@@ -44,15 +51,21 @@
     color: #0f264c;
   }
   .descDivFlexCard {
-    width: 73%;
+    // width: 73%;
+    // width: calc(100% / 3);
+    // width: 100%;
+    // width: calc(100% / 3);
+
     display: flex;
     align-items: center;
     justify-content: space-between;
     .divCardorange {
       background-color: #fff4e7;
-      padding: 20px 0px 20px 40px;
+      padding: 20px 20px 20px 40px;
       border-radius: 10px;
-      width: calc(100% / 3);
+      // width: 100%;
+      width: calc(100% / 2);
+
       position: relative;
       border: 1px solid #ff9916;
       .divCardimg {
@@ -61,14 +74,20 @@
         bottom: 60px;
         right: -10px;
       }
+      p {
+        font-size: 14px;
+      }
     }
     .divCardash {
-      width: calc(100% / 3);
-      margin: 0 30px;
-      padding: 20px;
+      width: calc(100% / 2);
+      // width: 100%;
+      margin: 0 5px;
       border-radius: 10px;
       background-color: #f4f8fb;
-      padding: 20px 0px 20px 40px;
+      padding: 20px 20px 20px 40px;
+      p {
+        font-size: 14px;
+      }
     }
   }
 }

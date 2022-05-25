@@ -15,16 +15,21 @@
       justify-content: flex-end;
       padding-right: 60px;
       h1 {
-        font-size: 60px;
+        font-size: 40px;
       }
     }
     .contact__imgDiv {
       margin-top: 30px;
       display: flex;
       align-items: center;
+      margin-right: 100px;
+      // width: 100%;
+      .contact__img {
+        width: 100%;
+      }
     }
   }
   .contact__bgform {
-    width: 70%;
+    width: 60%;
   }
 }

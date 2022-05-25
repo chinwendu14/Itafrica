@@ -1,0 +1,94 @@
+.footer {
+  margin-top: 100px;
+  padding: 0 100px;
+  margin-bottom: 30px;
+}
+
+.footer .footer__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .footer__flex .footer__div1 {
+  width: 40%;
+}
+
+.footer .footer__flex .footer__div1 .footer__div1FlexContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.footer .footer__flex .footer__div1 .footer__div1FlexContainer ul {
+  list-style-type: none;
+}
+
+.footer .footer__flex .footer__div1 .footer__div1FlexContainer ul li {
+  padding-top: 10px;
+  color: rgba(0, 0, 0, 0.656);
+}
+
+.footer .footer__flex .footer__div1 .footer__div1imgDiv {
+  margin-bottom: 30px;
+}
+
+.footer .footer__flex .footer__div1 .footer__div1imgDiv span {
+  background-color: black;
+  padding: 36px 0px 10px;
+}
+
+.footer .footer__flex .footer__div2 {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer .footer__flex .footer__div2 .footer__divdrop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.footer .footer__flex .footer__div2 .footer__divdrop p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 23%;
+  margin: 0 20px;
+  padding: 10px 20px;
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=footer.module.css.map */

@@ -1,0 +1,64 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 70px;
+}
+
+.header .header__logoDiv {
+  width: 35%;
+}
+
+.header .header__linkDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 65%;
+}
+
+.header .header__linkDiv ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 20px;
+  width: 60%;
+}
+
+.header .header__linkDiv ul .header__linkBlack {
+  color: black;
+  font-weight: bold;
+}
+
+.header .header__linkDiv ul li {
+  color: #282828a1;
+  font-weight: bold;
+}
+
+.header .header__linkDiv button {
+  font-size: 20px;
+  color: white;
+  background-color: #ff9916;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=header.module.css.map */

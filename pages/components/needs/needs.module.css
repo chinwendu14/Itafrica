@@ -1,0 +1,77 @@
+.needs {
+  background-image: url("/images/Rectangle 269.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin: 80px 0;
+  padding: 90px 90px;
+}
+
+.needs .needsh1 {
+  font-size: 30px;
+}
+
+.needs .needs__bgDiv {
+  background-color: rgba(255, 255, 255, 0.871);
+  width: 60%;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.needs .needs__bgflexcont {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.needs .needs__bgDivcon1 {
+  width: 45%;
+}
+
+.needs .needs__bgDivcon1 span {
+  margin-right: 10px;
+}
+
+.needs .needs__bgDivcon1 h1 {
+  font-size: 25px;
+}
+
+.needs .needs__bgDivcon2 {
+  width: 50%;
+}
+
+.needs .needs__bgDivcon2 span {
+  margin-right: 25px;
+}
+
+.needs .needs__bgDivcon2 h1 {
+  font-size: 25px;
+}
+
+.needs .needs__bgDivcon2 {
+  width: 45%;
+}
+
+.needs .needs__TextDiv1 {
+  margin-bottom: 30px;
+}
+
+.needs button {
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  padding: 15px 35px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+/*# sourceMappingURL=needs.module.css.map */

@@ -23,6 +23,7 @@ const Contact = () => {
             alt="img"
           /> */}
           <img
+            className={styles.contact__img}
             src="/images/607-6070358_enterprise-tablet-pro-samsung-tab-pos-hd-png-removebg-preview 1.png"
             alt="img"
           />

@@ -1,20 +1,25 @@
 .cardPeople {
-  margin: 50px 0;
+  margin: 50px 10px;
   padding: 20px;
   background-color: white;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-  height: 330px;
-  width: 23%;
+  height: 300px;
+  width: calc(100% / 4);
   border-radius: 10px;
-
+  // img {
+  //   width: 15%;
+  // }
+  .top {
+    margin-bottom: 20px;
+  }
   h1 {
     font-weight: 700;
-    margin: 20px 0;
-    font-size: 30px;
+    margin: 30px 0;
+    font-size: 20px;
   }
   p {
     padding-top: 5px;
-    font-size: 20px;
+    font-size: 16px;
   }
   button {
     margin-top: 40px;

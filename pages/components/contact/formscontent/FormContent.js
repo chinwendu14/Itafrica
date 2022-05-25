@@ -7,18 +7,20 @@ import styles from "./formContent.module.scss";
 const FormContent = () => {
   return (
     <div className={styles.formcontent}>
-      <div className={styles.formcontent__imgDiv}>
+      <div className={styles.formcontent__imgDivctextcontainer}>
         <p>
           We recommend you to join our maiing list where we
           <br /> give you updates about the latest events.
         </p>
-        <div>
-          {/* <Image src="/images/Frame.png" alt="img" /> */}
-          <img src="/images/Frame.png" alt="img" />
-        </div>
-        <div className={styles.imgdiv}>
-          {/* <Image src="/images/Frame.png" alt="img" /> */}
-          <img src="/images/Frame.png" alt="img" />
+        <div className={styles.formcontent__imgDiv}>
+          <div>
+            {/* <Image src="/images/Frame.png" alt="img" /> */}
+            <img src="/images/Frame.png" alt="img" />
+          </div>
+          <div className={styles.imgdiv}>
+            {/* <Image src="/images/Frame.png" alt="img" /> */}
+            <img src="/images/Frame.png" alt="img" />
+          </div>
         </div>
       </div>
 
@@ -62,8 +64,8 @@ const FormContent = () => {
         </div>
         <div className={styles.divCardash}>
           <p>
-            I am a simple restaurant <br />
-            guest
+            I am a simple restaurant
+            <br /> guest
           </p>
         </div>
       </div>

@@ -1,0 +1,68 @@
+.cardSoldOut {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+}
+
+.cardSoldOut .cardSoldOut__divtext {
+  width: 50%;
+}
+
+.cardSoldOut h1 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.cardSoldOut p {
+  padding-bottom: 15px;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cardSoldOut .cardSoldOut__divMap {
+  margin-top: 20px;
+}
+
+.cardSoldOut .cardSoldOut__divMap span {
+  margin-right: 10px;
+}
+
+.cardSoldOut .cardSoldOut__divButton {
+  margin-top: 30px;
+}
+
+.cardSoldOut .cardSoldOut__divButton button:nth-child(1) {
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.cardSoldOut .cardSoldOut__divButton button:nth-child(2) {
+  font-size: 20px;
+  color: white;
+  color: black;
+  font-weight: 700;
+  background-color: white;
+  padding: 20px 30px;
+  border: none;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.cardSoldOut .cardSoldOutimg {
+  width: 50%;
+}
+/*# sourceMappingURL=cardSoldOut.module.css.map */

@@ -5,7 +5,7 @@
   flex-direction: column;
   background-color: #9e5900;
   border-radius: 10px;
-  padding: 80px 60px;
+  padding: 80px 50px;
   h1 {
     color: white;
     font-size: 50px;
@@ -54,10 +54,12 @@
     }
     p {
       padding-bottom: 20px;
-      font-size: 21px;
+      font-size: 16px;
       color: #0370f3;
+      display: flex;
+      align-items: center;
       span {
-        margin-right: 30px;
+        margin-right: 10px;
       }
     }
   }
@@ -89,10 +91,12 @@
     }
     p {
       padding-bottom: 20px;
-      font-size: 21px;
+      font-size: 16px;
       color: #0370f3;
+      display: flex;
+      align-items: center;
       span {
-        margin-right: 30px;
+        margin-right: 5px;
       }
     }
   }

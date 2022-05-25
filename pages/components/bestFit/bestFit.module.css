@@ -1,0 +1,131 @@
+.bestFit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #9e5900;
+  border-radius: 10px;
+  padding: 80px 50px;
+}
+
+.bestFit h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.bestFit .bestFit__flexDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.bestFit .bestFitserviceflex1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 30px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.bestFit .bestFitserviceBgImg1 {
+  background-image: url("/images/Rectangle 46.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 400px;
+  width: 350px;
+}
+
+.bestFit .bestFitserviceQuick1 {
+  background-color: white;
+  padding: 30px;
+  width: 60%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.bestFit .bestFitserviceQuick1 h2 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.279);
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+
+.bestFit .bestFitserviceQuick1 p {
+  padding-bottom: 20px;
+  font-size: 16px;
+  color: #0370f3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bestFit .bestFitserviceQuick1 p span {
+  margin-right: 10px;
+}
+
+.bestFit .bestFitserviceBgImg2 {
+  background-image: url("/images/Rectangle 46 (1).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 400px;
+  width: 350px;
+}
+
+.bestFit .bestFitserviceQuick2 {
+  background-color: white;
+  padding: 30px;
+  width: 60%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.bestFit .bestFitserviceQuick2 h2 {
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+
+.bestFit .bestFitserviceQuick2 p {
+  padding-bottom: 20px;
+  font-size: 16px;
+  color: #0370f3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bestFit .bestFitserviceQuick2 p span {
+  margin-right: 5px;
+}
+/*# sourceMappingURL=bestFit.module.css.map */
