@@ -18,11 +18,13 @@ const Banner = () => {
         </div>
       </div>
       <div className={styles.banner__imageDiv}>
-        <Image
+        {/* <Image
           src="/images/Group 5925.png"
           alt="img"
-          //  height={100} width={250}
-        />
+          height={500}
+          width={500}
+        /> */}
+        <img src="/images/Group 5925.png" alt="img" />
       </div>
     </div>
   );

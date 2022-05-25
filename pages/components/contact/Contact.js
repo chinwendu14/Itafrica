@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+// import Image from "next/image";
 // import { contactlap, dotcolor } from "../../../assets";
 import styles from "./contact.module.scss";
 import FormContent from "./formscontent/FormContent";
@@ -14,8 +14,15 @@ const Contact = () => {
           </h1>
         </div>
         <div className={styles.contact__imgDiv}>
-          <Image src="/images/Group 5670.png" alt="img" />
-          <Image
+          {/* <Image src="/images/Group 5670.png" alt="img" /> */}
+          <img src="/images/Group 5670.png" alt="img" />
+          {/* <img src="/images/Group 5670.png" alt="img" /> */}
+
+          {/* <Image
+            src="/images/607-6070358_enterprise-tablet-pro-samsung-tab-pos-hd-png-removebg-preview 1.png"
+            alt="img"
+          /> */}
+          <img
             src="/images/607-6070358_enterprise-tablet-pro-samsung-tab-pos-hd-png-removebg-preview 1.png"
             alt="img"
           />

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./footer.module.scss";
 import Image from "next/image";
-import { arrowdown, icons, logowhite } from "../../assets";
+// import { arrowdown, icons, logowhite } from "../../assets";
 
 const Footer = () => {
   return (
@@ -39,11 +39,11 @@ const Footer = () => {
           </div>
           <div className={styles.footer__div1imgDiv}>
             <span>
-              <Image
-                // src={logowhite}
+              {/* <Image
                 src="/public/images/Rectangle 1.png"
                 alt="img"
-              />
+              /> */}
+              <img src="/images/Rectangle 1.png" alt="img" />
             </span>
           </div>
           <p>© 2020 HighTable LLC All rights reserved.</p>
@@ -53,16 +53,17 @@ const Footer = () => {
             <p>
               LGS NGN
               <span>
-                <Image
-                  // src={arrowdown} alt="img"
+                {/* <Image
                   src="/images/Polygon 1.png"
-                />
+                /> */}
+                <img src="/images/Polygon 1.png" alt="img" />
               </span>
             </p>
             <p>
               Nigeria
               <span>
-                <Image src="/images/Polygon 1.png" alt="img" />
+                {/* <Image src="/images/Polygon 1.png" alt="img" /> */}
+                <img src="/images/Polygon 1.png" alt="img" />
               </span>
             </p>
           </div>

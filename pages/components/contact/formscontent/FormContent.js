@@ -1,7 +1,7 @@
 import React from "react";
 // import styles from "./formContent.scss";
 import styles from "./formContent.module.scss";
-import Image from "next/image";
+// import Image from "next/image";
 // import { checkone, dotwhite } from "../../../../assets";
 
 const FormContent = () => {
@@ -13,10 +13,12 @@ const FormContent = () => {
           <br /> give you updates about the latest events.
         </p>
         <div>
-          <Image src="/images/Frame.png" alt="img" />
+          {/* <Image src="/images/Frame.png" alt="img" /> */}
+          <img src="/images/Frame.png" alt="img" />
         </div>
         <div className={styles.imgdiv}>
-          <Image src="/images/Frame.png" alt="img" />
+          {/* <Image src="/images/Frame.png" alt="img" /> */}
+          <img src="/images/Frame.png" alt="img" />
         </div>
       </div>
 
@@ -47,7 +49,8 @@ const FormContent = () => {
             in using Hightable
           </p>
           <div className={styles.divCardimg}>
-            <Image src="/images/akar-icons_circle-check-fill.png" alt="img" />
+            {/* <Image src="/images/akar-icons_circle-check-fill.png" alt="img" /> */}
+            <img src="/images/akar-icons_circle-check-fill.png" alt="img" />
           </div>
         </div>
         <div className={styles.divCardash}>

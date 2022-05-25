@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./cardSoldOut.module.scss";
-import Image from "next/image";
+// import Image from "next/image";
 // import { checkone, laptop } from "../../../../../assets";
 
 const CardSoldOut = ({ htext, ptext1, ptext2, data2 }) => {
@@ -18,7 +18,11 @@ const CardSoldOut = ({ htext, ptext1, ptext2, data2 }) => {
                 <div key={i}>
                   <p>
                     <span>
-                      <Image
+                      {/* <Image
+                        src="/images/akar-icons_circle-check-fill.png"
+                        alt="img"
+                      /> */}
+                      <img
                         src="/images/akar-icons_circle-check-fill.png"
                         alt="img"
                       />
@@ -35,7 +39,8 @@ const CardSoldOut = ({ htext, ptext1, ptext2, data2 }) => {
         </div>
       </div>
       <div className={styles.cardSoldOutimg}>
-        <Image src="/images/Rectangle.png" alt="img" />
+        {/* <Image src="/images/Rectangle.png" alt="img" /> */}
+        <img src="/images/Rectangle.png" alt="img" />
       </div>
     </div>
   );
